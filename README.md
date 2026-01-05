@@ -29,18 +29,38 @@ Para não comprometer o aprendizado, este projeto foi desenvolvido utilizando **
 
 ---
 
-## 🧠 Abordagem Utilizada no Projeto
+## 🧠 O que o Código Faz
 
-A implementação segue uma adaptação do desafio original, utilizando um arquivo estruturado como entrada:
+O código implementa uma pipeline de **ETL (Extração, Transformação e Carregamento)** utilizando Python e a biblioteca **Pandas**, aplicada a um conjunto de dados educacionais.
 
-- Extração dos dados a partir de um arquivo `.xlsx`
-- Tratamento e validação dos dados com **Pandas**
-- Classificação dos alunos em **Aprovado** ou **Reprovado**
-- Exibição dos resultados no terminal
+As etapas do processo incluem:
 
-Essa abordagem elimina dependências externas e garante o entendimento completo do fluxo de dados.
+1. **Extração:**  
+   Leitura de um arquivo Excel contendo registros de alunos e suas respectivas médias finais.
+
+2. **Transformação:**  
+   - Padronização dos nomes das colunas  
+   - Remoção de registros inconsistentes ou incompletos  
+   - Seleção das informações relevantes para análise  
+   - Conversão segura dos valores de notas para o formato numérico  
+
+3. **Carregamento:**  
+   - Organização dos dados tratados  
+   - Classificação dos alunos com base na média final  
+   - Apresentação dos resultados de forma estruturada no terminal  
+
+Essa pipeline evidencia o fluxo completo dos dados e a aplicação prática dos conceitos de Ciência de Dados.
 
 ---
+
+## 🎯 Por que Escolhi o Tema de Coleta de Notas
+
+A escolha do tema está diretamente relacionada à minha identificação com a área educacional e com a análise de dados aplicados a contextos reais de aprendizado e avaliação.
+
+Trabalhar com dados de desempenho acadêmico permite explorar processos importantes como validação, tratamento e interpretação de informações, além de refletir situações reais onde dados educacionais são utilizados para tomada de decisão, acompanhamento de resultados e geração de relatórios.
+
+Esse projeto representa não apenas a aplicação técnica dos conceitos de ETL, mas também o interesse em utilizar dados como ferramenta de análise e melhoria em contextos educacionais.
+
 
 ## 🛠️ Tecnologias Utilizadas
 
